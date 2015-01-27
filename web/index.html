@@ -9,92 +9,7 @@ and open the template in the editor.
         <title>Jessica's Resume</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="newcss.css" type="text/css">
-        <style>          
-            #bodyContainer {
-                font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
-                font-size: 110%;
-                width: 70%; 
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 10%;
-                text-align: center;
-            }
-            
-            h3 {
-                text-decoration: underline;
-                font-weight: bolder;
-                font-size: 120%;
-            }
-            
-            #headerInfo {
-                text-align: center;
-            }
-            
-            #personalInfo {
-                text-align: right;
-            }
-            
-            #objectiveParagraph {
-                text-align: center;
-                margin-left: 10%;
-                margin-right: 10%;
-            }
-            
-            #skillSummary {
-                text-align: center;
-            }
-            
-            #languages {
-                display: block;
-                text-align: center;
-            }
-            
-            #languagesList {
-                display: inline-block;
-                text-align: left;
-            }
-            
-            #developmentTools {
-                display: block;
-                text-align: center;
-            }
-            
-            #developmentToolsList {
-                display: inline-block;
-                text-align: left;
-            }
-            
-            #workExperience {
-                
-            }
-            
-            #span {
-                text-decoration: underline;
-                font-weight: bold;
-                font-size: 110%;              
-            }
-            
-            #work {
-                text-align: left; 
-                margin-left: 10%;
-            }
-            
-            .alignleft {
-                float: left;
-            }
-            
-            .alignright {
-                float: right;
-                margin-right: 30%;
-            }
-            
-            #workSummary {
-                margin-right: 10%;
-            }
-            
-        </style>
-        
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <!------ Body Container ------>
@@ -151,7 +66,7 @@ and open the template in the editor.
                 <h3>Work Experience</h3>
                 
                 <!-- First Job -->
-                <div id ="work">
+                <div id ="summary">
                     <span id="span">City of Cudahy</span><br />
                     <p class="alignleft"><i>City Hall Inspection Clerk</i></p>
                     <p class="alignright"><i>May 2011 to present</i></p>
@@ -165,7 +80,7 @@ and open the template in the editor.
                 
                 <!-- Second Job -->
                 <br /><br />
-                <div id="work">
+                <div id="summary">
                     <span id="span">Absolute Race Timing</span><br />
                     <p class="alignleft"><i>Timing Employee</i></p>
                     <p class="alignright"><i>March 2014 to present</i></p>
@@ -181,7 +96,7 @@ and open the template in the editor.
                 
                 <!-- Third Job -->
                 <br /><br />
-                <div id="work">
+                <div id="summary">
                     <span id="span">Target</span><br />
                     <p class="alignleft"><i>Brand Team Member</i></p>
                     <p class="alignright"><i>October 2011 to January 2014</i></p>
@@ -199,15 +114,14 @@ and open the template in the editor.
             <div id="educationSummary">
                 <h3>Education</h3>
                 
-                <div id ="education">
-                    <span id="span">Waukesha County Technical College</span><br />
-                    <p class="alignleft"><i>City Hall Inspection Clerk</i></p>
+                <div id ="summary">
+                    <p class="alignleft" >
+                        <span id="span">Waukesha County Technical College</span>
+                    </p>
                     <p class="alignright"><i>May 2011 to present</i></p>
-                    <div style="clear: both;"></div>
+                    <div style="clear: both;"></div><br />
                     <div id="workSummary">
-                        Time manage projects assigned to me, keep work up to date, 
-                        work efficiently with others, and help develop ideas to 
-                        increase productivity.
+                        Enrolled in Web & Software Associates Degree
                     </div>
                 </div>
             </div>

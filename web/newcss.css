@@ -1,4 +1,4 @@
-s/*
+/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
@@ -8,8 +8,85 @@ and open the template in the editor.
     Author     : jkramer26
 */
 
-#objectiveParagraph {
-    background-color: orange;
-    text-align: center;
-}
+#bodyContainer {
+                font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+                font-size: 110%;
+                width: 70%; 
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 10%;
+                text-align: center;
+            }
+            
+            h3 {
+                text-decoration: underline;
+                font-weight: bolder;
+                font-size: 120%;
+            }
+            
+            #headerInfo {
+                text-align: center;
+            }
+            
+            #personalInfo {
+                text-align: right;
+            }
+            
+            #objectiveParagraph {
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            
+            #skillSummary {
+                text-align: center;
+            }
+            
+            #languages {
+                display: block;
+                text-align: center;
+            }
+            
+            #languagesList {
+                display: inline-block;
+                text-align: left;
+            }
+            
+            #developmentTools {
+                display: block;
+                text-align: center;
+            }
+            
+            #developmentToolsList {
+                display: inline-block;
+                text-align: left;
+            }
+            
+            #workExperience {
+                
+            }
+            
+            #span {
+                text-decoration: underline;
+                font-weight: bold;
+                font-size: 110%;              
+            }
+            
+            #summary {
+                text-align: left; 
+                margin-left: 10%;
+            }
+            
+            .alignleft {
+                float: left;
+            }
+            
+            .alignright {
+                float: right;
+                margin-right: 30%;
+            }
+            
+            #workSummary {
+                margin-right: 10%;
+            }
 
